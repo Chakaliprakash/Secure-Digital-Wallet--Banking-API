@@ -12,33 +12,52 @@
 
 ---
 
-# Secure Digital Wallet
+# Secure Digital Wallet API
 
-A digital wallet and banking API project built around a Spring Boot backend and a React frontend.
+A Spring Boot application that models digital-wallet and banking operations through REST APIs.
 
-## Tech Stack
+## Features
 
-- Java and Spring Boot
+- User registration and authentication with JWT.
+- Wallet and balance retrieval.
+- Deposit and withdrawal operations.
+- Bank account and transaction endpoints.
+- Request validation and centralized exception handling.
+- OpenAPI documentation through Springdoc.
+
+## Technology Stack
+
+- Java 21 and Spring Boot 3
 - Spring Security and JWT
-- React and Tailwind CSS
-- PostgreSQL
-- Docker and OpenAPI tooling
+- Spring Data JPA and PostgreSQL
+- H2 for the development profile
+- Maven and Docker Compose
 
-## Overview
+## Run Locally
 
-The project focuses on secure API design and common digital-wallet workflows. Review the source code for the exact endpoints and supported operations.
+### Option 1: Development profile
 
-## Getting Started
+The repository includes an H2 in-memory configuration.
 
-1. Clone the repository.
-2. Configure the database connection and required environment variables.
-3. Start the backend using its build configuration.
-4. Install frontend dependencies and run the frontend using its package scripts.
-5. Use the API documentation, if configured, to explore available endpoints.
+```bash
+./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+```
+
+### Option 2: PostgreSQL
+
+Configure the PostgreSQL connection in `src/main/resources/application.properties`, then start the application with the default profile.
+
+## API Documentation
+
+When the application is running, open:
+
+`http://localhost:8080/swagger-ui.html`
+
+The wallet endpoints are under `/api/v1/wallets`. Review the controller classes for the complete endpoint list.
 
 ## Security
 
-Never commit passwords, signing keys, tokens, or production credentials.
+Use environment-specific secrets and database credentials. Do not use committed sample credentials or signing keys in a deployed environment.
 
 ## Author
 
