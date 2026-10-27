@@ -1,3 +1,19 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:0f172a,50:1d4ed8,100:38bdf8&text=Secure%20Digital%20Wallet&fontColor=ffffff&fontSize=40&fontAlignY=42&desc=Java%2021%20%7C%20Spring%20Boot%20%7C%20React&descAlignY=65&descSize=15" width="100%" alt="Secure Digital Wallet banner"/>
+
+![Banking%20API](https://img.shields.io/badge/Banking%20API-Enabled-334155)
+![JWT%20Security](https://img.shields.io/badge/JWT%20Security-Project-0f766e)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Built%20with%20care-64748b)
+
+**Transactional banking API and fintech dashboard.**
+
+[Repository](https://github.com/Chakaliprakash/Secure-Digital-Wallet--Banking-API) · [Issues](https://github.com/Chakaliprakash/Secure-Digital-Wallet--Banking-API/issues)
+
+</div>
+
+---
+
 [![Java](https://img.shields.io/badge/Java-21_LTS-ED8B00?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.3-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
